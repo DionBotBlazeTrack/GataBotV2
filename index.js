@@ -1,10 +1,10 @@
-console.log('Iniciando...') 
+﻿console.log('Iniciando...') 
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('GATABOT V2\nPOR\nGATA DIOS', {
+CFonts.say('DioBot(BETA)\nPOR\nBlazeTrack', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']

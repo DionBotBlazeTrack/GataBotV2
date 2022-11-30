@@ -1,4 +1,4 @@
-require('./config.js') 
+﻿require('./config.js') 
 let { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 let { generate } = require('qrcode-terminal')
 let syntaxerror = require('syntax-error')
@@ -38,7 +38,7 @@ if (!global.DATABASE.data.stats) global.DATABASE.data.stats = {}
 if (!global.DATABASE.data.msgs) global.DATABASE.data.msgs = {}
 if (!global.DATABASE.data.sticker) global.DATABASE.data.sticker = {}
 global.conn = new WAConnection()
-conn.browserDescription = ['GataBot por Gata Dios', '3.0']
+conn.browserDescription = ['DioBot Por BlazeTrack', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
